@@ -1,0 +1,58 @@
+.authorization {
+  height: 100%;
+  .background {
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+  }
+  &_pop {
+    position: relative;
+    padding-top: 50%;
+    text-align: center;
+    .title-img {
+      width: 246rpx;
+      height: 62rpx;
+    }
+    &-title {
+      font-size: 36rpx;
+      font-weight: bold;
+      padding: 20rpx 0;
+    }
+    &-query {
+      margin: 20rpx;
+      background: transparent;
+    }
+  }
+  &_bottom {
+    height: 25%;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+    text-align: center;
+    padding: 40rpx;
+    border-radius: 20rpx 20rpx 0 0;
+    .btn {
+      margin: 30rpx 0;
+      color: #fff;
+      border-radius: 4rpx;
+      background: #0e5cff;
+      padding: 20rpx 0;
+      font-size: 24rpx;
+    }
+  }
+  .the-mask {
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+  }
+}
